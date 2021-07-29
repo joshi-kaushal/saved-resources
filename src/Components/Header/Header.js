@@ -1,7 +1,7 @@
 // ! Title, GitHub Link, About Project, Add New Resources
 import { FaGithub, FaInfoCircle } from "react-icons/fa";
 
-const Header = () => {
+export const Header = () => {
   return (
     <nav className="navbar is-light" role="navigation">
       <div className="navbar-brand">
@@ -29,5 +29,3 @@ const Header = () => {
     </nav>
   );
 };
-
-export default Header;

@@ -1,10 +1,15 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Header from "./Components/Header/Header";
-import Design from "./Shared/fetch";
+
+import { Header } from "./Components/Header/Header";
+import { Search } from "./Components/Search/Search";
+import { Category } from "./Components/Categories/Categories";
 
 function App() {
   let [categories, setCategories] = useState([]);
+  let [subCategories, setSubCategories] = useState([]);
+  let [resourceType, setResourceType] = useState([]);
+
   let [prototyping, setPrototyping] = useState([]);
   let [design, setDesign] = useState([]);
   let [development, setDevelopment] = useState([]);
@@ -19,6 +24,14 @@ function App() {
     fetch(`${URL}categories`)
       .then((response) => response.json())
       .then((data) => setCategories(data[0].category));
+
+    fetch(`${URL}categories`)
+      .then((response) => response.json())
+      .then((data) => setSubCategories(data[1].subCat));
+
+    fetch(`${URL}categories`)
+      .then((response) => response.json())
+      .then((data) => setResourceType(data[2].resourceType));
 
     fetch(`${URL}prototyping`)
       .then((response) => response.json())
@@ -50,17 +63,14 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App is-dark">
       <Header />
-      <Design />
-
-      <div className="control">
-        <input
-          className="input is-focused is-large"
-          type="text"
-          placeholder="Search"
-        />
-      </div>
+      <Search />
+      <Category
+        categories={categories}
+        subCategories={subCategories}
+        resourceType={resourceType}
+      />
     </div>
   );
 }
