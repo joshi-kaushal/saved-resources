@@ -1,387 +1,116 @@
-[
-  {
-    "Name": "Mixkit",
-    "Link": "https://mixkit.co/",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Photos, Videos"
-  },
-  {
-    "Name": "Automate the Boring Stuff With Python",
-    "Link": "https://automatetheboringstuff.com/",
-    "ResourceType": "Book",
-    "Category": "Programming",
-    "CategorySubType*": "Python"
-  },
-  {
-    "Name": "Code Sandbox",
-    "Link": "https://codesandbox.io/?from-app=1",
-    "ResourceType": "IDE",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Codechef",
-    "Link": "https://www.codechef.com/",
-    "ResourceType": "Training",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "CodeChef",
-    "Link": "https://www.codechef.com/",
-    "ResourceType": "Training",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Codemy.com",
-    "Link": "https://www.youtube.com/channel/UCFB0dxMudkws1q8w5NJEAmw",
-    "ResourceType": "YouTube Channel",
-    "Category": "Programming",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Codepen",
-    "Link": "https://codepen.io/about",
-    "ResourceType": "IDE",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Codewars",
-    "Link": "https://www.codewars.com/",
-    "ResourceType": "Training",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Corey Schafer",
-    "Link": "https://www.youtube.com/user/schafer5",
-    "ResourceType": "YouTube Channel",
-    "Category": "Python",
-    "CategorySubType*": "Python"
-  },
-  {
-    "Name": "Coverr",
-    "Link": "https://coverr.co/",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Videos"
-  },
-  {
-    "Name": "CSE & Programming Guide",
-    "Link": "https://github.com/P1xt/p1xt-guides",
-    "ResourceType": "Website",
-    "Category": "Programming",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "CSS Reference",
-    "Link": "https://cssreference.io/",
-    "ResourceType": "Website",
-    "Category": "Front End",
-    "CategorySubType*": "CSS"
-  },
-  {
-    "Name": "CSS-Tricks",
-    "Link": "https://css-tricks.com/",
-    "ResourceType": "Website",
-    "Category": "Front End",
-    "CategorySubType*": "CSS"
-  },
-  {
-    "Name": "Dev Ed",
-    "Link": "https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q",
-    "ResourceType": "YouTube Channel",
-    "Category": "Web Development",
-    "CategorySubType*": "CSS, HTML, JavaScript"
-  },
-  {
-    "Name": "Dev Hints",
-    "Link": "https://devhints.io/",
-    "ResourceType": "Website",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Devdocs",
-    "Link": "https://devdocs.io/",
-    "ResourceType": "Documentation",
-    "Category": "Web Development",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Digital Ocean",
-    "Link": "https://www.digitalocean.com/",
-    "ResourceType": "Website",
-    "Category": "Hosting",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "EDx",
-    "Link": "https://www.edx.org/",
-    "ResourceType": "Course",
-    "Category": "Learn",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Eloquent JavaScript",
-    "Link": "https://eloquentjavascript.net/",
-    "ResourceType": "Book",
-    "Category": "Programming",
-    "CategorySubType*": "JavaScript"
-  },
-  {
-    "Name": "Exercism",
-    "Link": "https://exercism.com/",
-    "ResourceType": "Training",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Figma",
-    "Link": "https://www.figma.com/",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Mock Up"
-  },
-  {
-    "Name": "Fireship",
-    "Link": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
-    "ResourceType": "YouTube Channel",
-    "Category": "Web Development",
-    "CategorySubType*": "CSS, JavaScript"
-  },
-  {
-    "Name": "Flat Icons",
-    "Link": "https://www.flaticon.com/",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Icons"
-  },
-  {
-    "Name": "Font Awesome 6",
-    "Link": "https://fontawesome.com/",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Fonts"
-  },
-  {
-    "Name": "FreeCodeCamp",
-    "Link": "https://www.freecodecamp.org/learn",
-    "ResourceType": "Course",
-    "Category": "Programming",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "FreeCodeCamp",
-    "Link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
-    "ResourceType": "YouTube Channel",
-    "Category": "All",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Full Stack Open",
-    "Link": "https://fullstackopen.com/en/",
-    "ResourceType": "Course",
-    "Category": "Web Development",
-    "CategorySubType*": "React"
-  },
-  {
-    "Name": "GitHub Pages",
-    "Link": "https://pages.github.com/",
-    "ResourceType": "Website",
-    "Category": "Hosting",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Google Fonts",
-    "Link": "https://fonts.google.com/",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Fonts"
-  },
-  {
-    "Name": "Heroku App",
-    "Link": "https://www.heroku.com/",
-    "ResourceType": "Website",
-    "Category": "Hosting",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Icons8",
-    "Link": "https://icons8.com/animated-icons",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Icons"
-  },
-  {
-    "Name": "JavaScript Mastery",
-    "Link": "https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A",
-    "ResourceType": "YouTube Channel",
-    "Category": "Web Development",
-    "CategorySubType*": "JavaScript"
-  },
-  {
-    "Name": "Jdoodle",
-    "Link": "https://www.jdoodle.com/",
-    "ResourceType": "IDE",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Khan Academy",
-    "Link": "https://www.khanacademy.org/",
-    "ResourceType": "MOOC",
-    "Category": "Learn",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Learncpp",
-    "Link": "https://www.learncpp.com/",
-    "ResourceType": "Course",
-    "Category": "Programming",
-    "CategorySubType*": "C++"
-  },
-  {
-    "Name": "Leet Code",
-    "Link": "https://leetcode.com/",
-    "ResourceType": "Training",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "MDN Web Docs",
-    "Link": "https://developer.mozilla.org/en-US/",
-    "ResourceType": "Documentation",
-    "Category": "Web Development",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "mem.dev",
-    "Link": "https://mem.dev/",
-    "ResourceType": "Website",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Netlify",
-    "Link": "https://www.netlify.com/",
-    "ResourceType": "Website",
-    "Category": "Hosting",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Online GDB",
-    "Link": "https://www.onlinegdb.com/",
-    "ResourceType": "IDE",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "OSS",
-    "Link": "https://ossu.firebaseapp.com/#/curriculum",
-    "ResourceType": "MOOC",
-    "Category": "Learn",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Pexeks",
-    "Link": "https://www.pexels.com/",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Photos"
-  },
-  {
-    "Name": "Programming Knowledge",
-    "Link": "https://www.youtube.com/user/ProgrammingKnowledge",
-    "ResourceType": "YouTube Channel",
-    "Category": "All",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Programming with Mosh",
-    "Link": "https://www.youtube.com/user/programmingwithmosh",
-    "ResourceType": "YouTube Channel",
-    "Category": "Programming",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Repl.it",
-    "Link": "https://replit.com/",
-    "ResourceType": "IDE",
-    "Category": "Practice",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "Sentdex",
-    "Link": "https://www.youtube.com/user/sentdex",
-    "ResourceType": "YouTube Channel",
-    "Category": "Python",
-    "CategorySubType*": "Python"
-  },
-  {
-    "Name": "The Coding Train",
-    "Link": "https://www.youtube.com/user/shiffman",
-    "ResourceType": "YouTube Channel",
-    "Category": "Web Development",
-    "CategorySubType*": "JavaScript, Python"
-  },
-  {
-    "Name": "The Net Ninja",
-    "Link": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
-    "ResourceType": "YouTube Channel",
-    "Category": "All",
-    "CategorySubType*": "General"
-  },
-  {
-    "Name": "The Odin Project",
-    "Link": "https://www.theodinproject.com/dashboard",
-    "ResourceType": "Course",
-    "Category": "Web Development",
-    "CategorySubType*": "CSS, HTML, JavaScript, Node, React"
-  },
-  {
-    "Name": "Traversy Media",
-    "Link": "https://www.youtube.com/user/TechGuyWeb",
-    "ResourceType": "YouTube Channel",
-    "Category": "All, Web Development",
-    "CategorySubType*": "CSS, HTML, JavaScript, Node, React"
-  },
-  {
-    "Name": "Undraw",
-    "Link": "https://undraw.co/",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Photos"
-  },
-  {
-    "Name": "Unsplash",
-    "Link": "https://unsplash.com/",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Photos"
-  },
-  {
-    "Name": "Web Dev Simplified",
-    "Link": "https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw",
-    "ResourceType": "YouTube Channel",
-    "Category": "Web Development",
-    "CategorySubType*": "CSS, HTML, JavaScript, Node, React"
-  },
-  {
-    "Name": "You Don't Know JS Yet",
-    "Link": "https://github.com/getify/You-Dont-Know-JS",
-    "ResourceType": "Book",
-    "Category": "Programming",
-    "CategorySubType*": "JavaScript"
-  },
-  {
-    "Name": "Zeplin",
-    "Link": "https://zeplin.io/",
-    "ResourceType": "Website",
-    "Category": "Design",
-    "CategorySubType*": "Mock Up"
-  }
-]
+{
+  "prototyping": [
+    {
+      "id": 1,
+      "Name": "Prototyping",
+      "Link": "www.github.com",
+      "SubCat": "Wireframe",
+      "ResourceType": "Website"
+    }
+  ],
+
+  "design": [
+    {
+      "id": 1,
+      "Name": "GitHUb",
+      "Link": "https://github.com/",
+      "Category": "Design",
+      "SubCat": "Wireframe",
+      "ResourceType": "Website"
+    }
+  ],
+
+  "development": [
+    {
+      "id": 1,
+      "Name": "development",
+      "Link": "www.github.com",
+      "SubCat": "Wireframe",
+      "ResourceType": "Website"
+    }
+  ],
+
+  "hosting": [
+    {
+      "id": 1,
+      "Name": "hosting",
+      "Link": "www.github.com",
+      "SubCat": "Wireframe",
+      "ResourceType": "Website"
+    }
+  ],
+
+  "practice": [
+    {
+      "id": 1,
+      "Name": "Prototyping",
+      "Link": "www.github.com",
+      "SubCat": "Wireframe",
+      "ResourceType": "practice"
+    }
+  ],
+
+  "learn": [
+    {
+      "id": 1,
+      "Name": "learn",
+      "Link": "www.github.com",
+      "SubCat": "Wireframe",
+      "ResourceType": "Website"
+    }
+  ],
+
+  "misc": [
+    {
+      "id": 1,
+      "Name": "misc",
+      "Link": "www.github.com",
+      "SubCat": "Wireframe",
+      "ResourceType": "Website"
+    }
+  ],
+
+  "categories": [
+    {
+      "category": [
+        "Prototyping",
+        "Design",
+        "Development",
+        "Hosting",
+        "Practice",
+        "Learn"
+      ]
+    },
+    {
+      "subCat": [
+        "FullStack",
+        "HTML",
+        "CSS",
+        "JS",
+        "React",
+        "Node",
+        "Express",
+        "MongoDB",
+        "Python",
+        "Fonts",
+        "Colors",
+        "Icons",
+        "Wireframe",
+        "Hosting",
+        "Python",
+        "Django"
+      ]
+    },
+    {
+      "resourceType": [
+        "Website",
+        "Forum",
+        "Book",
+        "Course",
+        "Tutorial",
+        "YouTube",
+        "Documentation"
+      ]
+    }
+  ]
+}

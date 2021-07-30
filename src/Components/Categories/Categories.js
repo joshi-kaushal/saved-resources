@@ -1,8 +1,9 @@
 // ! Category            - Prototyping Designing Development Hosting Practice Learn
-// ! CategorySubType     - FullStack HTML CSS JS React Node MongoDB Python Fonts Colors Icons Wireframing Hosting Python Django
+// ! CategorySubType     - FullStack HTML CSS JS React Node MongoDB Python Fonts Colors Icons Wireframe Hosting Python Django
 // ! ResourceType        - Website Forum Book Course Tutorial YouTube
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { Resources } from "../Resources/Resources";
 
 export const Category = (props) => {
   let [selectedCategory, setSelectedCategory] = useState([]);
@@ -12,11 +13,7 @@ export const Category = (props) => {
   let [showSubCategories, setShowSubCategories] = useState(false);
   let [showResourcesTypes, setShowResourcesTypes] = useState(false);
 
-  useEffect(() => {
-    console.log(selectedCategory);
-    console.log(selectedSubCategory);
-    console.log(selectedResourceType);
-  }, [selectedResourceType]);
+  let [renderResourcesComponent, setRenderResourcesComponent] = useState(false);
 
   const handleCategoryClick = (category) => {
     setSelectedCategory((prevSelCat) => [...prevSelCat, category]);
@@ -36,6 +33,7 @@ export const Category = (props) => {
       ...prevSelResTypes,
       resourceType,
     ]);
+    setRenderResourcesComponent(true);
   };
 
   const RenderCategories = ({ categories }) => {
@@ -103,17 +101,15 @@ export const Category = (props) => {
 
   if (props.categories !== null) {
     return (
-      <div className="cate">
+      <div className="cate m-5">
         <div className="categories">
           <RenderCategories categories={props.categories} />
-          <hr />
         </div>
 
         <div className="subCategories">
           {showSubCategories && (
             <RenderSubCategories subCategories={props.subCategories} />
           )}
-          <hr />
         </div>
 
         <div className="resourceType">
@@ -121,6 +117,15 @@ export const Category = (props) => {
             <RenderResourceTypes resourceTypes={props.resourceType} />
           )}
         </div>
+        <br />
+
+        {renderResourcesComponent && (
+          <Resources
+            selectedCategory={selectedCategory}
+            selectedSubCategory={selectedSubCategory}
+            selectedResourceType={selectedResourceType}
+          />
+        )}
       </div>
     );
   } else {

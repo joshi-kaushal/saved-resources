@@ -10,14 +10,6 @@ function App() {
   let [subCategories, setSubCategories] = useState([]);
   let [resourceType, setResourceType] = useState([]);
 
-  let [prototyping, setPrototyping] = useState([]);
-  let [design, setDesign] = useState([]);
-  let [development, setDevelopment] = useState([]);
-  let [hosting, setHosting] = useState([]);
-  let [practice, setPractice] = useState([]);
-  let [learn, setLearn] = useState([]);
-  let [misc, setMisc] = useState([]);
-
   const URL = "http://localhost:3001/";
 
   useEffect(() => {
@@ -32,34 +24,6 @@ function App() {
     fetch(`${URL}categories`)
       .then((response) => response.json())
       .then((data) => setResourceType(data[2].resourceType));
-
-    fetch(`${URL}prototyping`)
-      .then((response) => response.json())
-      .then((data) => setPrototyping(data));
-
-    fetch(`${URL}design`)
-      .then((response) => response.json())
-      .then((data) => setDesign(data));
-
-    fetch(`${URL}development`)
-      .then((response) => response.json())
-      .then((data) => setDevelopment(data));
-
-    fetch(`${URL}hosting`)
-      .then((response) => response.json())
-      .then((data) => setHosting(data));
-
-    fetch(`${URL}practice`)
-      .then((response) => response.json())
-      .then((data) => setPractice(data));
-
-    fetch(`${URL}learn`)
-      .then((response) => response.json())
-      .then((data) => setLearn(data));
-
-    fetch(`${URL}misc`)
-      .then((response) => response.json())
-      .then((data) => setMisc(data));
   }, []);
 
   return (
@@ -76,4 +40,14 @@ function App() {
 }
 
 export default App;
-//      json-server --watch Resources.json -p 3001 -d 2000
+
+/* You'll need JSON Server to run this project without any issues
+   JSON file is available in src/Shared/Resources.json
+ * TODO:
+ *  JSON Dataset
+ *  Search Functionality
+ *  Add Loading Component
+ *  Improve Styling
+ *  Add Dark Mode
+ *  Add info in header
+ */
